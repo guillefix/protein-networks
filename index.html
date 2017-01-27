@@ -21,7 +21,7 @@
   /*position: relative;*/
   margin: 0px;
   display: inline-block;
-  background: white;
+  /*background: white;*/
 }
 #legend {
   position: absolute;
@@ -61,7 +61,7 @@
           var domain_name = e.data.node.label;
           // alert(nodeId);
           let element = $('#container-01');
-          let config = { backgroundColor: 'orange' };
+          let config = { backgroundColor: 'white' };
           let viewer = $3Dmol.createViewer( element, config );
           let pdbUri = 'domain_files/'+domain_name+'.pdb';
           jQuery.ajax( pdbUri, {
