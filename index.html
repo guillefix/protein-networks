@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GraphTest</title>
+    <script src="build/sigma.min.js"></script>
+    <script src="build/plugins/sigma.parsers.json.min.js"></script>
+    <script src="http://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+  </head>
+  <style type="text/css">
+  #container {
+    width: 49vw;
+    height: 100vh;
+    margin: 0px;
+    display: inline-block;
+  }
+
+.mol-container {
+  width: 49vw;
+  height: 100vh;
+  /*position: relative;*/
+  margin: 0px;
+  display: inline-block;
+
+}
+#legend {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 40vw;
+  top: 0px;
+  /*background: grey;*/
+}
+/*#legend span {
+  display: inline-block;
+}*/
+</style>
+  <body>
+    <div id="container-01" class="mol-container"></div><div id="container"></div>
+    <div id="legend" >
+      <p style="color:green;">α/β</p>
+      <p style="color:yellow;">α+β</p>
+      <p style="color:blue;">all-α</p>
+      <p style="color:red;">all-β</p>
+    </div>
+  </body>
+  <script>
+    sigma.parsers.json('domain_net.json', {
+      container: 'container',
+      settings: {
+        defaultNodeColor: '#ec5148',
+        edgeColor: '#000',
+        minEdgeSize:1,
+        maxEdgeSize:1,
+        minNodeSize:1.5,
+        maxNodeSize:1.5
+      }},
+      function(s) {
+
+        s.bind('clickNode', function(e) {
+          var domain_name = e.data.node.label;
+          // alert(nodeId);
+          let element = $('#container-01');
+          let config = { backgroundColor: 'orange' };
+          let viewer = $3Dmol.createViewer( element, config );
+          let pdbUri = 'domain_files/'+domain_name+'.pdb';
+          jQuery.ajax( pdbUri, {
+            success: function(data) {
+              let v = viewer;
+              v.addModel( data, "pdb" );                       /* load data */
+              v.setStyle({}, {cartoon: {color: 'spectrum'}});  /* style all atoms */
+              v.zoomTo();                                      /* set camera */
+              v.render();                                      /* render scene */
+              v.zoom(1.2, 1000);                               /* slight zoom */
+            },
+            error: function(hdr, status, err) {
+              console.error( "Failed to load PDB " + pdbUri + ": " + err );
+            },
+          });
+          // console.log("hi");
+          });
+
+
+      }
+    );
+  </script>
+</html>

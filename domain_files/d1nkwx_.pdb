@@ -1,0 +1,69 @@
+HEADER    SCOP/ASTRAL domain d1nkwx_  [80608]     26-FEB-12   0000
+REMARK  99
+REMARK  99 ASTRAL ASTRAL-version: 1.75A
+REMARK  99 ASTRAL SCOP-sid: d1nkwx_
+REMARK  99 ASTRAL SCOP-sun: 80608
+REMARK  99 ASTRAL SCOP-sccs: i.1.1.2
+REMARK  99 ASTRAL Source-PDB: 1nkw
+REMARK  99 ASTRAL Source-PDB-REVDAT: 24-FEB-09
+REMARK  99 ASTRAL Region: X:
+REMARK  99 ASTRAL ASTRAL-SPACI: 0.08 (not valid)
+REMARK  99 ASTRAL ASTRAL-AEROSPACI: 0.08
+REMARK  99 ASTRAL Data-updated-release: 1.65
+ATOM  64942  CA  MET X   1      36.991  80.549  50.122  1.00 53.94           C  
+ATOM  64943  CA  LYS X   2      35.635  80.843  53.663  1.00 51.03           C  
+ATOM  64944  CA  ILE X   3      37.688  82.454  56.430  1.00 53.19           C  
+ATOM  64945  CA  LYS X   4      37.286  83.514  60.061  1.00 54.07           C  
+ATOM  64946  CA  LEU X   5      36.358  87.164  60.591  1.00 52.70           C  
+ATOM  64947  CA  VAL X   6      39.049  87.621  63.244  1.00 51.46           C  
+ATOM  64948  CA  ARG X   7      38.184  87.539  66.948  1.00 50.91           C  
+ATOM  64949  CA  SER X   8      40.565  89.820  68.843  1.00 49.65           C  
+ATOM  64950  CA  VAL X   9      40.305  93.587  68.383  1.00 47.87           C  
+ATOM  64951  CA  ILE X  10      39.969  94.926  71.927  1.00 45.70           C  
+ATOM  64952  CA  GLY X  11      43.595  95.778  72.629  1.00 43.58           C  
+ATOM  64953  CA  ARG X  12      44.480  96.196  68.961  1.00 41.74           C  
+ATOM  64954  CA  PRO X  13      46.160  99.223  67.385  1.00 40.36           C  
+ATOM  64955  CA  GLY X  14      44.291 101.745  65.262  1.00 39.66           C  
+ATOM  64956  CA  ASN X  15      45.515  99.947  62.150  1.00 39.93           C  
+ATOM  64957  CA  GLN X  16      43.961  96.646  63.225  1.00 40.70           C  
+ATOM  64958  CA  VAL X  17      40.743  98.372  64.291  1.00 41.67           C  
+ATOM  64959  CA  LYS X  18      40.412 100.080  60.909  1.00 42.64           C  
+ATOM  64960  CA  THR X  19      40.852  96.716  59.190  1.00 43.61           C  
+ATOM  64961  CA  VAL X  20      37.892  95.300  61.114  1.00 44.14           C  
+ATOM  64962  CA  GLN X  21      35.487  98.035  60.018  1.00 44.33           C  
+ATOM  64963  CA  ALA X  22      36.930  97.775  56.509  1.00 44.85           C  
+ATOM  64964  CA  LEU X  23      36.050  94.077  56.383  1.00 45.86           C  
+ATOM  64965  CA  GLY X  24      32.453  94.011  57.577  1.00 47.20           C  
+ATOM  64966  CA  LEU X  25      33.314  92.716  61.041  1.00 48.60           C  
+ATOM  64967  CA  ARG X  26      31.342  94.705  63.615  1.00 49.75           C  
+ATOM  64968  CA  LYS X  27      30.843  92.110  66.350  1.00 50.33           C  
+ATOM  64969  CA  ILE X  28      33.016  89.083  67.127  1.00 50.27           C  
+ATOM  64970  CA  GLY X  29      31.481  85.922  65.706  1.00 49.81           C  
+ATOM  64971  CA  ASP X  30      31.343  86.445  61.948  1.00 49.21           C  
+ATOM  64972  CA  SER X  31      32.235  84.671  58.704  1.00 48.51           C  
+ATOM  64973  CA  ARG X  32      32.439  86.327  55.286  1.00 47.72           C  
+ATOM  64974  CA  GLU X  33      33.927  85.358  51.922  1.00 46.82           C  
+ATOM  64975  CA  VAL X  34      36.500  87.616  50.265  1.00 45.85           C  
+ATOM  64976  CA  SER X  35      37.462  87.841  46.592  1.00 45.02           C  
+ATOM  64977  CA  ASP X  36      40.642  86.321  45.164  0.00 44.63           C  
+ATOM  64978  CA  THR X  37      42.942  89.289  44.562  1.00 44.81           C  
+ATOM  64979  CA  PRO X  38      46.411  90.609  45.396  1.00 45.25           C  
+ATOM  64980  CA  ALA X  39      44.777  93.473  47.292  1.00 45.72           C  
+ATOM  64981  CA  VAL X  40      42.517  91.293  49.438  1.00 46.08           C  
+ATOM  64982  CA  ARG X  41      45.409  88.926  50.144  1.00 46.23           C  
+ATOM  64983  CA  GLY X  42      47.551  91.778  51.424  1.00 46.10           C  
+ATOM  64984  CA  MET X  43      44.910  92.963  53.881  1.00 45.90           C  
+ATOM  64985  CA  VAL X  44      44.453  89.444  55.248  1.00 45.85           C  
+ATOM  64986  CA  LYS X  45      48.224  89.083  55.583  1.00 45.89           C  
+ATOM  64987  CA  THR X  46      48.364  92.079  57.921  1.00 46.00           C  
+ATOM  64988  CA  VAL X  47      46.011  90.226  60.264  1.00 46.21           C  
+ATOM  64989  CA  LYS X  48      47.317  86.675  59.875  0.00 46.90           C  
+ATOM  64990  CA  HIS X  49      47.162  86.243  63.650  0.00 48.03           C  
+ATOM  64991  CA  LEU X  50      43.492  87.231  63.487  0.00 49.96           C  
+ATOM  64992  CA  LEU X  51      42.333  85.256  60.450  1.00 52.44           C  
+ATOM  64993  CA  GLU X  52      41.910  81.753  59.030  1.00 56.39           C  
+ATOM  64994  CA  VAL X  53      43.405  80.272  55.861  1.00 54.82           C  
+ATOM  64995  CA  GLN X  54      41.038  77.458  54.886  1.00 61.99           C  
+ATOM  64996  CA  GLU X  55      38.342  75.638  56.862  1.00 62.02           C  
+TER   64997      GLU X  55
+END

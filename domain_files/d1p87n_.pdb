@@ -1,0 +1,46 @@
+HEADER    SCOP/ASTRAL domain d1p87n_  [87934]     26-FEB-12   0000
+REMARK  99
+REMARK  99 ASTRAL ASTRAL-version: 1.75A
+REMARK  99 ASTRAL SCOP-sid: d1p87n_
+REMARK  99 ASTRAL SCOP-sun: 87934
+REMARK  99 ASTRAL SCOP-sccs: i.1.1.1
+REMARK  99 ASTRAL Source-PDB: 1p87
+REMARK  99 ASTRAL Source-PDB-REVDAT: 24-FEB-09
+REMARK  99 ASTRAL Region: N:
+REMARK  99 ASTRAL ASTRAL-SPACI: -0.11 (not valid)
+REMARK  99 ASTRAL ASTRAL-AEROSPACI: -0.11
+REMARK  99 ASTRAL Data-updated-release: 1.65
+ATOM   3162  CA  PRO N  69    -114.430  -5.693 -31.311  1.00 15.00           C  
+ATOM   3163  CA  HIS N  70    -114.622  -7.100 -27.752  1.00 15.00           C  
+ATOM   3164  CA  GLY N  71    -115.740  -4.014 -25.761  1.00 15.00           C  
+ATOM   3165  CA  PHE N  72    -115.953  -0.713 -27.559  1.00 15.00           C  
+ATOM   3166  CA  LEU N  73    -117.703   2.232 -25.913  1.00 15.00           C  
+ATOM   3167  CA  ARG N  74    -120.211   3.945 -28.203  1.00 15.00           C  
+ATOM   3168  CA  LYS N  75    -119.466   7.461 -26.867  1.00 15.00           C  
+ATOM   3169  CA  PHE N  76    -115.745   7.143 -27.722  1.00 15.00           C  
+ATOM   3170  CA  GLY N  77    -115.850   4.662 -30.630  1.00 15.00           C  
+ATOM   3171  CA  LEU N  78    -112.716   3.276 -28.852  1.00 15.00           C  
+ATOM   3172  CA  SER N  79    -112.097  -0.033 -27.087  1.00 15.00           C  
+ATOM   3173  CA  ARG N  80    -111.570  -0.361 -23.294  1.00 15.00           C  
+ATOM   3174  CA  ILE N  81    -107.739  -0.476 -23.722  1.00 15.00           C  
+ATOM   3175  CA  LYS N  82    -107.561   2.326 -26.348  1.00 15.00           C  
+ATOM   3176  CA  VAL N  83    -109.776   4.680 -24.307  1.00 15.00           C  
+ATOM   3177  CA  ARG N  84    -107.638   4.541 -21.113  1.00 15.00           C  
+ATOM   3178  CA  GLU N  85    -104.346   4.789 -23.071  1.00 15.00           C  
+ATOM   3179  CA  ALA N  86    -105.550   7.722 -25.223  1.00 15.00           C  
+ATOM   3180  CA  ALA N  87    -107.167   9.221 -22.094  1.00 15.00           C  
+ATOM   3181  CA  MET N  88    -103.874   9.269 -20.229  1.00 15.00           C  
+ATOM   3182  CA  ARG N  89    -102.073  10.842 -23.248  1.00 15.00           C  
+ATOM   3183  CA  GLY N  90    -104.543  13.782 -23.124  1.00 15.00           C  
+ATOM   3184  CA  GLU N  91    -105.480  13.029 -26.782  1.00 15.00           C  
+ATOM   3185  CA  ILE N  92    -109.150  12.721 -25.730  1.00 15.00           C  
+ATOM   3186  CA  PRO N  93    -110.326  16.385 -25.360  1.00 15.00           C  
+ATOM   3187  CA  GLY N  94    -112.639  17.022 -22.428  1.00 15.00           C  
+ATOM   3188  CA  LEU N  95    -111.851  13.624 -20.864  1.00 15.00           C  
+ATOM   3189  CA  LYS N  96    -109.903  13.899 -17.633  1.00 15.00           C  
+ATOM   3190  CA  LYS N  97    -109.139  11.965 -14.498  1.00 15.00           C  
+ATOM   3191  CA  ALA N  98    -109.112  13.156 -10.906  1.00 15.00           C  
+ATOM   3192  CA  SER N  99    -105.690  14.448  -9.798  1.00 15.00           C  
+ATOM   3193  CA  TRP N 100    -103.596  11.619  -8.302  1.00 15.00           C  
+TER    3194      TRP N 100
+END

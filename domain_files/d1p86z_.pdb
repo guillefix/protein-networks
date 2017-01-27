@@ -1,0 +1,43 @@
+HEADER    SCOP/ASTRAL domain d1p86z_  [87920]     26-FEB-12   0000
+REMARK  99
+REMARK  99 ASTRAL ASTRAL-version: 1.75A
+REMARK  99 ASTRAL SCOP-sid: d1p86z_
+REMARK  99 ASTRAL SCOP-sun: 87920
+REMARK  99 ASTRAL SCOP-sccs: i.1.1.1
+REMARK  99 ASTRAL Source-PDB: 1p86
+REMARK  99 ASTRAL Source-PDB-REVDAT: 24-FEB-09
+REMARK  99 ASTRAL Region: Z:
+REMARK  99 ASTRAL ASTRAL-SPACI: -0.11 (not valid)
+REMARK  99 ASTRAL ASTRAL-AEROSPACI: -0.11
+REMARK  99 ASTRAL Data-updated-release: 1.65
+ATOM   5319  CA  LEU Z  27      98.308  14.707 -32.453  1.00 15.00           C  
+ATOM   5320  CA  SER Z  28      95.774  14.513 -35.340  1.00 15.00           C  
+ATOM   5321  CA  VAL Z  29      93.937  17.768 -35.709  1.00 15.00           C  
+ATOM   5322  CA  ASP Z  30      90.780  17.855 -37.819  1.00 15.00           C  
+ATOM   5323  CA  LYS Z  31      91.110  20.223 -40.852  1.00 15.00           C  
+ATOM   5324  CA  THR Z  32      94.602  21.373 -39.803  1.00 15.00           C  
+ATOM   5325  CA  SER Z  33      97.513  19.226 -38.691  1.00 15.00           C  
+ATOM   5326  CA  GLY Z  34      99.612  19.733 -35.555  1.00 15.00           C  
+ATOM   5327  CA  GLU Z  35      98.877  20.374 -31.922  1.00 15.00           C  
+ATOM   5328  CA  LYS Z  36      95.942  18.634 -30.346  1.00 15.00           C  
+ATOM   5329  CA  HIS Z  37      94.810  17.352 -27.109  1.00 15.00           C  
+ATOM   5330  CA  LEU Z  38      91.810  14.999 -27.350  1.00 15.00           C  
+ATOM   5331  CA  ARG Z  39      90.015  17.251 -24.842  1.00 15.00           C  
+ATOM   5332  CA  HIS Z  40      91.117  20.923 -25.188  1.00 15.00           C  
+ATOM   5333  CA  HIS Z  41      90.945  22.605 -28.548  1.00 15.00           C  
+ATOM   5334  CA  ILE Z  42      93.804  23.666 -30.786  1.00 15.00           C  
+ATOM   5335  CA  THR Z  43      96.122  26.536 -31.226  1.00 15.00           C  
+ATOM   5336  CA  ALA Z  44      95.686  26.834 -34.960  1.00 15.00           C  
+ATOM   5337  CA  ASP Z  45      91.921  27.305 -35.251  1.00 15.00           C  
+ATOM   5338  CA  GLY Z  46      90.734  25.326 -32.273  1.00 15.00           C  
+ATOM   5339  CA  TYR Z  47      87.740  23.122 -32.612  1.00 15.00           C  
+ATOM   5340  CA  TYR Z  48      86.185  19.799 -31.598  1.00 15.00           C  
+ATOM   5341  CA  ARG Z  49      83.773  18.692 -34.092  1.00 15.00           C  
+ATOM   5342  CA  GLY Z  50      82.576  22.374 -33.870  1.00 15.00           C  
+ATOM   5343  CA  ARG Z  51      83.803  25.143 -36.077  1.00 15.00           C  
+ATOM   5344  CA  LYS Z  52      84.328  27.892 -33.564  1.00 15.00           C  
+ATOM   5345  CA  VAL Z  53      87.160  29.445 -31.700  1.00 15.00           C  
+ATOM   5346  CA  ILE Z  54      89.462  31.967 -33.390  1.00 15.00           C  
+ATOM   5347  CA  ALA Z  55      93.061  33.050 -33.235  1.00 15.00           C  
+TER    5348      ALA Z  55
+END

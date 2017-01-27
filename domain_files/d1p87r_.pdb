@@ -1,0 +1,65 @@
+HEADER    SCOP/ASTRAL domain d1p87r_  [87938]     26-FEB-12   0000
+REMARK  99
+REMARK  99 ASTRAL ASTRAL-version: 1.75A
+REMARK  99 ASTRAL SCOP-sid: d1p87r_
+REMARK  99 ASTRAL SCOP-sun: 87938
+REMARK  99 ASTRAL SCOP-sccs: i.1.1.1
+REMARK  99 ASTRAL Source-PDB: 1p87
+REMARK  99 ASTRAL Source-PDB-REVDAT: 24-FEB-09
+REMARK  99 ASTRAL Region: R:
+REMARK  99 ASTRAL ASTRAL-SPACI: -0.11 (not valid)
+REMARK  99 ASTRAL ASTRAL-AEROSPACI: -0.11
+REMARK  99 ASTRAL Data-updated-release: 1.65
+ATOM   3441  CA  GLN R  18     -35.397  20.081  86.962  1.00 15.00           C  
+ATOM   3442  CA  GLU R  19     -36.771  22.170  84.066  1.00 15.00           C  
+ATOM   3443  CA  ILE R  20     -33.969  20.522  82.031  1.00 15.00           C  
+ATOM   3444  CA  ASP R  21     -35.626  17.054  82.533  1.00 15.00           C  
+ATOM   3445  CA  TYR R  22     -36.979  16.203  79.056  1.00 15.00           C  
+ATOM   3446  CA  LYS R  23     -38.228  12.789  80.400  1.00 15.00           C  
+ATOM   3447  CA  ASP R  24     -40.451  13.843  83.325  1.00 15.00           C  
+ATOM   3448  CA  ILE R  25     -43.727  13.709  81.336  1.00 15.00           C  
+ATOM   3449  CA  ALA R  26     -45.893  13.844  84.528  1.00 15.00           C  
+ATOM   3450  CA  THR R  27     -44.417  17.257  85.454  1.00 15.00           C  
+ATOM   3451  CA  LEU R  28     -44.093  18.545  81.797  1.00 15.00           C  
+ATOM   3452  CA  LYS R  29     -47.713  17.667  80.855  1.00 15.00           C  
+ATOM   3453  CA  ASN R  30     -48.869  20.344  83.373  1.00 15.00           C  
+ATOM   3454  CA  TYR R  31     -47.284  23.060  81.153  1.00 15.00           C  
+ATOM   3455  CA  ILE R  32     -49.394  21.982  78.141  1.00 15.00           C  
+ATOM   3456  CA  THR R  33     -53.004  22.973  77.438  1.00 15.00           C  
+ATOM   3457  CA  GLU R  34     -56.015  21.014  76.164  1.00 15.00           C  
+ATOM   3458  CA  SER R  35     -53.864  20.877  73.054  1.00 15.00           C  
+ATOM   3459  CA  GLY R  36     -50.118  20.223  72.713  1.00 15.00           C  
+ATOM   3460  CA  LYS R  37     -49.563  24.044  72.892  1.00 15.00           C  
+ATOM   3461  CA  ILE R  38     -47.221  25.259  75.584  1.00 15.00           C  
+ATOM   3462  CA  VAL R  39     -48.871  27.549  77.993  1.00 15.00           C  
+ATOM   3463  CA  PRO R  40     -47.833  31.231  77.926  1.00 15.00           C  
+ATOM   3464  CA  SER R  41     -45.960  32.743  80.871  1.00 15.00           C  
+ATOM   3465  CA  ARG R  42     -49.293  33.929  82.371  1.00 15.00           C  
+ATOM   3466  CA  ILE R  43     -50.324  30.277  82.785  1.00 15.00           C  
+ATOM   3467  CA  THR R  44     -46.937  28.599  83.457  1.00 15.00           C  
+ATOM   3468  CA  GLY R  45     -45.859  31.388  85.808  1.00 15.00           C  
+ATOM   3469  CA  THR R  46     -42.261  30.899  84.801  1.00 15.00           C  
+ATOM   3470  CA  ARG R  47     -39.942  33.675  83.726  1.00 15.00           C  
+ATOM   3471  CA  ALA R  48     -38.098  34.416  80.484  1.00 15.00           C  
+ATOM   3472  CA  LYS R  49     -35.068  32.258  81.516  1.00 15.00           C  
+ATOM   3473  CA  TYR R  50     -37.159  29.354  82.930  1.00 15.00           C  
+ATOM   3474  CA  GLN R  51     -39.788  29.359  80.154  1.00 15.00           C  
+ATOM   3475  CA  ARG R  52     -37.035  29.421  77.462  1.00 15.00           C  
+ATOM   3476  CA  GLN R  53     -35.680  26.189  79.042  1.00 15.00           C  
+ATOM   3477  CA  LEU R  54     -39.122  24.680  79.610  1.00 15.00           C  
+ATOM   3478  CA  ALA R  55     -40.013  25.134  75.887  1.00 15.00           C  
+ATOM   3479  CA  ARG R  56     -36.637  23.569  74.912  1.00 15.00           C  
+ATOM   3480  CA  ALA R  57     -37.226  20.583  77.221  1.00 15.00           C  
+ATOM   3481  CA  ILE R  58     -40.868  20.263  76.043  1.00 15.00           C  
+ATOM   3482  CA  LYS R  59     -39.718  20.139  72.386  1.00 15.00           C  
+ATOM   3483  CA  ARG R  60     -37.327  17.189  73.057  1.00 15.00           C  
+ATOM   3484  CA  ALA R  61     -40.053  15.341  75.032  1.00 15.00           C  
+ATOM   3485  CA  ARG R  62     -42.312  15.963  71.954  1.00 15.00           C  
+ATOM   3486  CA  TYR R  63     -39.600  14.388  69.762  1.00 15.00           C  
+ATOM   3487  CA  LEU R  64     -39.379  11.439  72.178  1.00 15.00           C  
+ATOM   3488  CA  SER R  65     -43.137  10.852  71.491  1.00 15.00           C  
+ATOM   3489  CA  LEU R  66     -43.406  11.712  75.259  1.00 15.00           C  
+ATOM   3490  CA  LEU R  67     -45.394  14.890  74.641  1.00 15.00           C  
+ATOM   3491  CA  PRO R  68     -48.050  15.539  71.976  1.00 15.00           C  
+TER    3492      PRO R  68
+END

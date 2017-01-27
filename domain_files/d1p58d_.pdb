@@ -1,0 +1,69 @@
+HEADER    SCOP/ASTRAL domain d1p58d_  [94130]     26-FEB-12   0000
+REMARK  99
+REMARK  99 ASTRAL ASTRAL-version: 1.75A
+REMARK  99 ASTRAL SCOP-sid: d1p58d_
+REMARK  99 ASTRAL SCOP-sun: 94130
+REMARK  99 ASTRAL SCOP-sccs: i.17.1.1
+REMARK  99 ASTRAL Source-PDB: 1p58
+REMARK  99 ASTRAL Source-PDB-REVDAT: 02-MAR-11
+REMARK  99 ASTRAL Region: D:
+REMARK  99 ASTRAL ASTRAL-SPACI: -0.09 (not valid)
+REMARK  99 ASTRAL ASTRAL-AEROSPACI: -0.09
+REMARK  99 ASTRAL Data-updated-release: 1.67
+ATOM   1474  CA  SER D  21      16.207   0.176 211.758  1.00 53.71           C  
+ATOM   1475  CA  SER D  22      12.548   0.861 212.127  1.00 56.50           C  
+ATOM   1476  CA  GLU D  23      12.090   0.961 208.364  1.00 58.43           C  
+ATOM   1477  CA  GLY D  24      14.017  -2.307 208.018  1.00 56.03           C  
+ATOM   1478  CA  ALA D  25      11.814  -3.746 210.729  1.00 62.47           C  
+ATOM   1479  CA  TRP D  26       8.750  -2.536 208.822  1.00 50.32           C  
+ATOM   1480  CA  LYS D  27      10.131  -3.939 205.547  1.00 56.64           C  
+ATOM   1481  CA  HIS D  28      10.806  -7.218 207.274  1.00 64.23           C  
+ATOM   1482  CA  ALA D  29       7.264  -7.347 208.622  1.00 62.43           C  
+ATOM   1483  CA  GLN D  30       5.889  -6.581 205.154  1.00 52.38           C  
+ATOM   1484  CA  ARG D  31       8.052  -9.353 203.757  1.00 56.02           C  
+ATOM   1485  CA  ILE D  32       6.715 -11.695 206.443  1.00 55.22           C  
+ATOM   1486  CA  GLU D  33       3.128 -10.574 205.756  1.00 59.69           C  
+ATOM   1487  CA  THR D  34       3.556 -11.238 202.007  1.00 54.95           C  
+ATOM   1488  CA  TRP D  35       5.057 -14.651 202.756  1.00 49.37           C  
+ATOM   1489  CA  ILE D  36       2.143 -15.545 205.032  1.00 51.18           C  
+ATOM   1490  CA  LEU D  37       0.554 -14.322 201.991  1.00 48.87           C  
+ATOM   1491  CA  ARG D  38       0.031 -17.929 200.701  1.00 53.52           C  
+ATOM   1492  CA  HIS D  39      -3.424 -17.469 199.208  1.00 57.71           C  
+ATOM   1493  CA  PRO D  40      -3.862 -17.218 195.834  1.00 64.02           C  
+ATOM   1494  CA  GLY D  41      -4.974 -13.610 195.235  1.00 64.95           C  
+ATOM   1495  CA  PHE D  42      -1.306 -12.856 195.068  1.00 68.46           C  
+ATOM   1496  CA  THR D  43      -1.026 -15.375 192.153  1.00 66.65           C  
+ATOM   1497  CA  ILE D  44      -4.210 -14.262 190.204  1.00 66.10           C  
+ATOM   1498  CA  MET D  45      -2.841 -10.803 190.638  1.00 59.54           C  
+ATOM   1499  CA  ALA D  46       0.280 -11.567 188.650  1.00 57.56           C  
+ATOM   1500  CA  ALA D  47      -1.989 -13.017 185.972  1.00 62.52           C  
+ATOM   1501  CA  ILE D  48      -3.854  -9.750 185.909  1.00 65.13           C  
+ATOM   1502  CA  LEU D  49      -0.410  -8.422 185.143  1.00 54.60           C  
+ATOM   1503  CA  ALA D  50       1.220 -11.061 182.900  1.00 70.35           C  
+ATOM   1504  CA  TYR D  51       0.607  -9.001 179.769  1.00 58.67           C  
+ATOM   1505  CA  THR D  52       3.246  -6.554 180.978  1.00 56.65           C  
+ATOM   1506  CA  ILE D  53       5.996  -9.229 181.468  1.00 83.12           C  
+ATOM   1507  CA  GLY D  54       8.143  -8.695 178.355  1.00 77.97           C  
+ATOM   1508  CA  THR D  55      10.031  -5.795 180.045  1.00 61.51           C  
+ATOM   1509  CA  THR D  56      10.252  -3.184 177.415  1.00 65.04           C  
+ATOM   1510  CA  HIS D  57       6.531  -2.839 177.169  1.00 61.43           C  
+ATOM   1511  CA  PHE D  58       5.382   0.284 179.211  1.00 68.88           C  
+ATOM   1512  CA  GLN D  59       2.262  -1.590 180.369  1.00 54.74           C  
+ATOM   1513  CA  ARG D  60       4.569  -3.643 182.544  1.00 46.33           C  
+ATOM   1514  CA  VAL D  61       4.948  -0.556 184.704  1.00 65.98           C  
+ATOM   1515  CA  LEU D  62       1.237  -0.836 185.582  1.00 73.95           C  
+ATOM   1516  CA  ILE D  63       1.760  -4.494 186.532  1.00 54.73           C  
+ATOM   1517  CA  PHE D  64       4.825  -3.730 188.622  1.00 50.91           C  
+ATOM   1518  CA  ILE D  65       2.938  -0.924 190.386  1.00 69.91           C  
+ATOM   1519  CA  LEU D  66      -0.068  -3.242 191.055  1.00 70.70           C  
+ATOM   1520  CA  LEU D  67       2.396  -5.707 192.678  1.00 49.10           C  
+ATOM   1521  CA  THR D  68       3.586  -3.012 195.111  1.00 58.45           C  
+ATOM   1522  CA  ALA D  69       0.055  -1.839 195.706  1.00 62.81           C  
+ATOM   1523  CA  ILE D  70      -1.083  -5.339 196.697  1.00 74.96           C  
+ATOM   1524  CA  ALA D  71       1.853  -6.224 198.954  1.00 60.17           C  
+ATOM   1525  CA  PRO D  72       1.092  -3.096 200.975  1.00 60.48           C  
+ATOM   1526  CA  SER D  73      -2.634  -3.815 200.817  1.00 61.02           C  
+ATOM   1527  CA  MET D  74      -1.850  -7.321 202.003  1.00 56.88           C  
+ATOM   1528  CA  THR D  75       0.163  -6.364 205.090  1.00 56.70           C  
+TER    1529      THR D  75
+END

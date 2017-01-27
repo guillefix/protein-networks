@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Building network</title>
+    <script src="http://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+  </head>
+  <style>
+  .mol-container {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 0px;
+    /*display: inline-block;*/
+  }
+  #container-01 {
+    top: 100px;
+    left: 100px;
+  }
+  #container-02 {
+    top: 130px;
+    left: 300px;
+  }
+  #container-03 {
+    top: 400px;
+    left: 600px;
+  }
+  #container-04 {
+    top: 60px;
+    left: 430px;
+  }
+  #container-05 {
+    top: 240px;
+    left: 480px;
+  }
+  #container-06 {
+    top: 300px;
+    left: 700px;
+  }
+  #container-07 {
+    top: 150px;
+    left: 800px;
+  }
+  #decorations {
+    top:0px;
+    left:0px;
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    z-index: 10;
+  }
+  </style>
+  <body>
+    <div id="container-01" class="mol-container"></div>
+    <div id="container-02" class="mol-container"></div>
+    <div id="container-03" class="mol-container"></div>
+    <div id="container-04" class="mol-container"></div>
+    <div id="container-05" class="mol-container"></div>
+    <div id="container-06" class="mol-container"></div>
+    <div id="container-07" class="mol-container"></div>
+    <svg id="decorations">
+      <line x1="215" y1="155" x2="301" y2="174"  stroke-width="2" stroke="black"/>
+        <text id="label1" x="240" y="145">p = 0.911</text>
+      <line id="line2" x1="387" y1="151" x2="443" y2="119"  stroke-width="2" stroke="black"/>
+        <text id="label2" x="360" y="120">p = 0.958 </text>
+      <line x1="389" y1="203" x2="483" y2="265"  stroke-width="2" stroke="black"/>
+        <text id="label3" x="385" y="264">p = 0.943</text>
+      <line x1="496" y1="149" x2="517" y2="235"  stroke-width="2" stroke="black"/>
+        <text id="label4" x="519" y="201">p = 0.992</text>
+      <line x1="527" y1="119" x2="715" y2="300"  stroke-width="2" stroke="black"/>
+        <text id="label5" x="622" y="188">p = 0.959</text>
+      <line x1="581" y1="305" x2="690" y2="332"  stroke-width="2" stroke="black"/>
+        <text id="label6" x="580" y="341">p = 0.982</text>
+      <line x1="671" y1="424" x2="727" y2="368"  stroke-width="2" stroke="black"/>
+        <text id="label7" x="705" y="418">p = 0.932</text>
+      <line id="line8" x1="773" y1="311" x2="826" y2="229"  stroke-width="2" stroke="black"/>
+        <text id="label8" x="807" y="290">p = 0.960</text>
+      <circle id="circle_blue" cx="360" cy="157" r="0" fill="blue"/>
+      <circle id="circle_red" cx="590" cy="266" r="0" fill="red"/>
+      <circle id="circle_yellow" cx="852" cy="197" r="0" fill="yellow"/>
+    </svg>
+  </body>
+  <script>
+  let mainIndex = 0;
+  $(document).on("mousemove", (e) => {
+    console.log(e.pageX, e.pageY);
+  })
+  $("svg text").hide();
+  let domains = ["d2j9ga1", "d3etja1", "d1kjqa1", "d2cvea2", "d2f1fa1", "d1j27a_", "d1vr7a1"]
+  for (var i = 1; i < 8; i++) {
+    let domColor;
+    if (i < 4)
+      domColor = "blue";
+    else if (i < 7)
+      domColor = "red";
+    else
+      domColor = "yellow";
+    let element = $('#container-0'+i.toString());
+    let config = { backgroundColor: 'orange' };
+    let viewer = $3Dmol.createViewer( element, config );
+    let pdbUri = 'domain_files/'+domains[i-1]+'.pdb';
+    jQuery.ajax( pdbUri, {
+      success: function(data) {
+        let v = viewer;
+        v.setBackgroundColor("#fff", 0);
+        v.addModel( data, "pdb" );                       /* load data */
+        v.setStyle({}, {cartoon: {color: domColor}});  /* style all atoms */
+        v.zoomTo();                                      /* set camera */
+        v.render();                                      /* render scene */
+        v.zoom(1.2, 1000);                               /* slight zoom */
+        v.rotate(180, "y", 1000);                               /* slight zoom */
+        v.rotate(180, "y", 1000);                               /* slight zoom */
+      },
+      error: function(hdr, status, err) {
+        console.error( "Failed to load PDB " + pdbUri + ": " + err );
+      },
+    });
+  }
+
+  //grouping yellow
+  $(document).on("click", function(){
+    if (mainIndex !== 4) {
+      return;
+    }
+    // setTimeout(()=>{
+      let domEls = $("#container-07");
+      domEls.fadeOut();
+      $("#circle_yellow").animate(
+        { x: 50 },
+          {
+              duration: 400,
+              step: function(now){ $(this).attr("r", now); }
+          }
+      )
+      $({x2: $("#line8").attr("x2"), y2: $("#line8").attr("y2")}).animate(
+        { x2: 803, y2:215 },
+          {
+              duration: 1000,
+              step: function(now, fx) {$("#line8").attr(fx.prop, now); }
+          }
+      )
+    // }, 1000);
+  });
+
+  //grouping blues
+  $(document).on("click", function(){
+    if (mainIndex !== 3) {
+      return;
+    }
+    // setTimeout(()=>{
+      let domEls = $("#container-01, #container-02, #container-03");
+      domEls.animate({left:314, top:110}, 1000);
+      $({x1: $("#line2").attr("x1"), y1: $("#line2").attr("y1")}).animate(
+        { x1: 413, y1:172 },
+          {
+              duration: 1000,
+              step: function(now, fx) {$("#line2").attr(fx.prop, now); }
+          }
+      )
+      $({x: $("#label2").attr("x"), y: $("#label2").attr("y")}).animate(
+        { x: 463, y:197 },
+          {
+              duration: 1000,
+              step: function(now, fx) { $("#label2").attr(fx.prop, now); }
+          }
+      )
+    // }, 1000);
+
+    setTimeout(()=>{
+      let domEls = $("#container-01, #container-02, #container-03");
+      domEls.fadeOut();
+      $("#circle_blue").animate(
+        { x: 50 },
+          {
+              duration: 400,
+              step: function(now) { $(this).attr("r", now); }
+          }
+      )
+    }, 1000);
+    mainIndex++;
+  });
+
+
+  //grouping reds
+  $(document).on("click", function(){
+    if (mainIndex !== 2) {
+      return;
+    }
+    // setTimeout(()=>{
+      // $("svg > :not('circle')").not("#label2, #line2, #label8, #line8").fadeOut();
+      let domEls = $("#container-04, #container-05, #container-06");
+      domEls.animate({left:537, top:214}, 1000)
+      $({x2: $("#line2").attr("x2"), y2: $("#line2").attr("y2")}).animate(
+        { x2: 537, y2:264 },
+          {
+              duration: 1000,
+              step: function(now, fx) { $("#line2").attr(fx.prop, now); }
+          }
+      )
+      $({x: $("#label2").attr("x"), y: $("#label2").attr("y")}).animate(
+        { x: 463, y:185 },
+          {
+              duration: 1000,
+              step: function(now, fx) { $("#label2").attr(fx.prop, now); }
+          }
+      )
+      $({x1: $("#line8").attr("x1"), y1: $("#line8").attr("y1")}).animate(
+        { x1: 645, y1:264 },
+          {
+              duration: 1000,
+              step: function(now, fx) { $("#line8").attr(fx.prop, now); }
+          }
+      )
+      $({x: $("#label8").attr("x"), y: $("#label8").attr("y")}).animate(
+        { x: 690, y:221 },
+          {
+              duration: 1000,
+              step: function(now, fx) {$("#label8").attr(fx.prop, now); }
+          }
+      )
+    // }, 1000);
+
+    setTimeout(()=>{
+      let domEls = $("#container-04, #container-05, #container-06");
+      domEls.fadeOut();
+      $("#circle_red").animate(
+        { x: 50 },
+          {
+              duration: 400,
+              step: function(now) { $(this).attr("r", now); }
+          }
+      )
+    }, 1000);
+    mainIndex++;
+  });
+
+  $(document).on("click", function(){
+    if (mainIndex !== 1) {
+      return;
+    }
+      $("svg > :not('circle')").not("#label2, #line2, #label8, #line8").fadeOut();
+      mainIndex++;
+
+  });
+
+  $(document).on("click", function(){
+    if (mainIndex !== 0) {
+      return;
+    }
+    let makeAppear = (i) => {
+      setTimeout(()=>{
+        $("svg #label"+i.toString()).show();
+      }, i*100)
+    }
+    for (var i = 0; i <= 8; i++) {
+      makeAppear(i);
+    }
+    mainIndex++;
+  });
+  </script>
+</html>
